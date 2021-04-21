@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "galaria:blocks/visionblock",
+    "up": "galaria:blocks/visionblock",
+    "north": "galaria:blocks/visionblock",
+    "east": "galaria:blocks/visionblock",
+    "south": "galaria:blocks/visionblock",
+    "west": "galaria:blocks/visionblock",
+    "particle": "galaria:blocks/visionblock"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "group": "galaria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "galaria:bation_galaria"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "galaria:bation_galaria"
+    }
+  ],
+  "result": {
+    "item": "galaria:charbon_galaria",
+    "count": 2
+  }
+}

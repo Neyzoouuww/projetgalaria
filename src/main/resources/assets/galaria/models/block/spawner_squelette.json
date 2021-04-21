@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "galaria:blocks/spawner_block",
+    "up": "galaria:blocks/spawner_block",
+    "north": "galaria:blocks/spawner_block",
+    "east": "galaria:blocks/spawner_block",
+    "south": "galaria:blocks/spawner_block",
+    "west": "galaria:blocks/spawner_block",
+    "particle": "galaria:blocks/spawner_block"
+  }
+}

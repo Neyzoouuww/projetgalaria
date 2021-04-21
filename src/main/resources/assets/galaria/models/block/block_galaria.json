@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "galaria:blocks/galariablock",
+    "up": "galaria:blocks/galariablock",
+    "north": "galaria:blocks/galariablock",
+    "east": "galaria:blocks/galariablock",
+    "south": "galaria:blocks/galariablock",
+    "west": "galaria:blocks/galariablock",
+    "particle": "galaria:blocks/galariablock"
+  }
+}

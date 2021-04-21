@@ -1,0 +1,16 @@
+{
+  "group": "galaria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "galaria:block_galaria"
+    }
+  },
+  "result": {
+    "item": "galaria:lingot_galaria",
+    "count": 9
+  }
+}

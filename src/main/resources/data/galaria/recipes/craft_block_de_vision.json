@@ -1,0 +1,19 @@
+{
+  "group": "galaria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "galaria:bation_galaria"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "galaria:bation_galaria"
+    }
+  ],
+  "result": {
+    "item": "galaria:block_de_vision",
+    "count": 1
+  }
+}

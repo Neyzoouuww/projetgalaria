@@ -1,0 +1,26 @@
+{
+  "_fv": 17,
+  "_type": "fluid",
+  "definition": {
+    "name": "Acide",
+    "textureStill": "acide2",
+    "textureFlowing": "acide2",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1400,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "AcideMobplayerCollidesBlock2"
+    }
+  }
+}

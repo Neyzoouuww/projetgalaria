@@ -1,0 +1,30 @@
+{
+  "group": "galaria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "galaria:lingot_galaria"
+    },
+    "1": {
+      "item": "galaria:lingot_galaria"
+    },
+    "2": {
+      "item": "galaria:lingot_galaria"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "galaria:pioche_galaria",
+    "count": 1
+  }
+}

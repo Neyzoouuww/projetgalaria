@@ -1,0 +1,24 @@
+{
+  "group": "galaria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "galaria:galaria_mega_compresser"
+    },
+    "1": {
+      "item": "galaria:bation_galaria"
+    },
+    "2": {
+      "item": "galaria:bation_galaria"
+    }
+  },
+  "result": {
+    "item": "galaria:baton_du_galarien",
+    "count": 1
+  }
+}

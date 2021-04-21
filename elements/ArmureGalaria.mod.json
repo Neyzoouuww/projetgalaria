@@ -1,0 +1,66 @@
+{
+  "_fv": 17,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "casquegalaria",
+    "enableBody": true,
+    "textureBody": "plastrongalaria",
+    "enableLeggings": true,
+    "textureLeggings": "jambieregalaria",
+    "enableBoots": true,
+    "textureBoots": "bottegalaria",
+    "onHelmetTick": {
+      "name": "ArmureGalariaHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "ArmureGalariaBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "ArmureGalariaLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "ArmureGalariaBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "galariaarmure",
+    "helmetName": "Casque en galaria",
+    "bodyName": "Plastron en galaria",
+    "leggingsName": "Jambière en galaria",
+    "bootsName": "Bottes en galaria",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "ModelArmireGalaria",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "armuregalaria.png",
+    "bodyModelName": "ModelArmireGalaria",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "armuregalaria.png",
+    "leggingsModelName": "ModelArmireGalaria",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "armuregalaria.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "armuregalaria.png",
+    "maxDamage": 66,
+    "damageValueHelmet": 6,
+    "damageValueBody": 16,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 6,
+    "enchantability": 9,
+    "toughness": 2.0,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

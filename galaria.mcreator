@@ -1,0 +1,776 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MineraiGalaria",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minerai_galaria"
+    },
+    {
+      "name": "LingotGalaria",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingot_galaria"
+    },
+    {
+      "name": "BlockGalaria",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_galaria"
+    },
+    {
+      "name": "CraftBlockGalaria",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_block_galaria"
+    },
+    {
+      "name": "BlockGalaria2",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_galaria_2"
+    },
+    {
+      "name": "ArmureGalariaHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_galaria_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArmureGalariaBodyTickEvent",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_galaria_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArmureGalariaLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_galaria_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArmureGalariaBootsTickEvent",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_galaria_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArmureGalaria",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_galaria",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MineraiGalariaFondu",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minerai_galaria_fondu"
+    },
+    {
+      "name": "EpeeGalariaToolInHandTick",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epee_galaria_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EpeeGalaria",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epee_galaria"
+    },
+    {
+      "name": "PiocheGalaria",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pioche_galaria"
+    },
+    {
+      "name": "HacheGalaria",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hache_galaria"
+    },
+    {
+      "name": "PiocheGalariaToolInHandTick",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pioche_galaria_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HacheGalariaToolInHandTick",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hache_galaria_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PelleGalaria",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pelle_galaria"
+    },
+    {
+      "name": "PelleGalariaToolInHandTick",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pelle_galaria_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BationGalaria",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bation_galaria"
+    },
+    {
+      "name": "CraftBatonGalaria",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_baton_galaria"
+    },
+    {
+      "name": "CraftPiocheGalaria",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_pioche_galaria"
+    },
+    {
+      "name": "CraftHacheGalaria",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_hache_galaria"
+    },
+    {
+      "name": "CraftPelleGalaria",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_pelle_galaria"
+    },
+    {
+      "name": "CharbonGalaria",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charbon_galaria"
+    },
+    {
+      "name": "CraftCharbonGalaria",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_charbon_galaria"
+    },
+    {
+      "name": "CharbonGalariaCuir",
+      "type": "fuel",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charbon_galaria_cuir"
+    },
+    {
+      "name": "GalariaCompresser",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galaria_compresser"
+    },
+    {
+      "name": "GalariaMegaCompresser",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galaria_mega_compresser"
+    },
+    {
+      "name": "CraftGalariaCompresser",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_galaria_compresser"
+    },
+    {
+      "name": "Acide",
+      "type": "fluid",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acide"
+    },
+    {
+      "name": "AcideMobplayerCollidesBlock2",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acide_mobplayer_collides_block_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BatonDuGalarienRightClickedInAir",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baton_du_galarien_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BatonDuGalarien",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baton_du_galarien"
+    },
+    {
+      "name": "CraftBatonDuGalarien",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_baton_du_galarien"
+    },
+    {
+      "name": "HammerGalariaBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_galaria_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HammerGalaria",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_galaria"
+    },
+    {
+      "name": "BlockDeVision",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_de_vision"
+    },
+    {
+      "name": "CraftBlockDeVision",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_block_de_vision"
+    },
+    {
+      "name": "TableCraftGalaria",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "table_craft_galaria"
+    },
+    {
+      "name": "GUITableCraftGalaria",
+      "type": "gui",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_table_craft_galaria"
+    },
+    {
+      "name": "TeteHammerGalaria",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tete_hammer_galaria"
+    },
+    {
+      "name": "CraftTeteHammerGalaria",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_tete_hammer_galaria"
+    },
+    {
+      "name": "TableCraftGalariaUpdateTick",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "table_craft_galaria_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftTableCraftGalaria",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_table_craft_galaria"
+    },
+    {
+      "name": "BlockDeVision2",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_de_vision_2"
+    },
+    {
+      "name": "BlockDeVision2OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_de_vision_2_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockDeVisionOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_de_vision_on_block_right_clicked",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "BlockDeVisionBlockAdded",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_de_vision_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnerSquelette",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawner_squelette"
+    },
+    {
+      "name": "SpawnerSqueletteUpdateTick",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawner_squelette_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnerSqueletteBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawner_squelette_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnerSqueletteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawner_squelette_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.galaria.epee_galaria": "Épée en galaria",
+      "block.galaria.minerai_galaria": "Minerai Galaria",
+      "item.galaria.pelle_galaria": "Pelle en galaria",
+      "item.galaria.hammer_galaria": "Hammer en galaria",
+      "item.galaria.lingot_galaria": "Lingot de galaria",
+      "item.galaria.tete_hammer_galaria": "Tete Hammer Galaria",
+      "fluid.acide": "Acide",
+      "item.galaria.galaria_mega_compresser": "Galaria Mega Compresser",
+      "item.galaria.hache_galaria": "Hache en galaria",
+      "item.galaria.armure_galaria_helmet": "Casque en galaria",
+      "block.galaria.table_craft_galaria": "Table de craft en galaria",
+      "item.galaria.baton_du_galarien": "Baton du galarien",
+      "item.galaria.bation_galaria": "Bation en galaria",
+      "item.galaria.pioche_galaria": "Pioche en galaria",
+      "block.galaria.block_galaria": "Block Galaria",
+      "item.galaria.armure_galaria_boots": "Bottes en galaria",
+      "item.galaria.charbon_galaria": "Charbon en galaria",
+      "item.galaria.acide_bucket": "Acide Bucket",
+      "block.galaria.block_de_vision": "Block De Vision",
+      "item.galaria.armure_galaria_chestplate": "Plastron en galaria",
+      "item.galaria.armure_galaria_leggings": "Jambière en galaria",
+      "block.galaria.block_de_vision_2": "Block De Vision",
+      "block.galaria.spawner_squelette": "Spawner Squelette",
+      "item.galaria.galaria_compresser": "Galaria Compresser"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "galaria",
+    "modName": "Galaria",
+    "version": "1.0.0",
+    "author": "Neyzu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "galaria",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100112313
+}

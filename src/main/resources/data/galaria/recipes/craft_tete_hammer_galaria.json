@@ -1,0 +1,19 @@
+{
+  "group": "galaria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "galaria:block_galaria"
+    },
+    {
+      "item": "galaria:block_galaria"
+    },
+    {
+      "item": "galaria:lingot_galaria"
+    }
+  ],
+  "result": {
+    "item": "galaria:tete_hammer_galaria",
+    "count": 1
+  }
+}

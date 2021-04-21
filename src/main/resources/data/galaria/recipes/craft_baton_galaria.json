@@ -1,0 +1,16 @@
+{
+  "group": "galaria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "galaria:lingot_galaria"
+    },
+    {
+      "item": "galaria:lingot_galaria"
+    }
+  ],
+  "result": {
+    "item": "galaria:bation_galaria",
+    "count": 4
+  }
+}
