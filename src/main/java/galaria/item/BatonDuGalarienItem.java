@@ -59,7 +59,7 @@ public class BatonDuGalarienItem extends GalariaModElements.ModElement {
 	}
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(GalariaItemGroup.tab).maxDamage(500).isImmuneToFire());
+			super(new Item.Properties().group(GalariaItemGroup.tab).maxDamage(75).isImmuneToFire());
 		}
 
 		@Override

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "galaria:items/hammersmelt"
+    "layer0": "galaria:items/piochegalariasmelt"
   }
 }

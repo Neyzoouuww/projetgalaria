@@ -6,7 +6,7 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.entity.monster.CreeperEntity;
+import net.minecraft.entity.monster.SkeletonEntity;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.ILivingEntityData;
@@ -66,7 +66,7 @@ public class SpawnerSqueletteUpdateTickProcedure extends GalariaModElements.ModE
 					&& ((world.getBlockState(new BlockPos((int) (x + 2), (int) (y + 1), (int) z))).getBlock() == Blocks.AIR.getDefaultState()
 							.getBlock()))) {
 				if (world instanceof ServerWorld) {
-					Entity entityToSpawn = new CreeperEntity(EntityType.CREEPER, (World) world);
+					Entity entityToSpawn = new SkeletonEntity(EntityType.SKELETON, (World) world);
 					entityToSpawn.setLocationAndAngles((x + 2), y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof MobEntity)
 						((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
@@ -78,7 +78,7 @@ public class SpawnerSqueletteUpdateTickProcedure extends GalariaModElements.ModE
 					&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) (y + 1), (int) z))).getBlock() == Blocks.AIR.getDefaultState()
 							.getBlock()))) {
 				if (world instanceof ServerWorld) {
-					Entity entityToSpawn = new CreeperEntity(EntityType.CREEPER, (World) world);
+					Entity entityToSpawn = new SkeletonEntity(EntityType.SKELETON, (World) world);
 					entityToSpawn.setLocationAndAngles((x - 2), y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof MobEntity)
 						((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
@@ -90,7 +90,7 @@ public class SpawnerSqueletteUpdateTickProcedure extends GalariaModElements.ModE
 					&& ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) (z + 2)))).getBlock() == Blocks.AIR.getDefaultState()
 							.getBlock()))) {
 				if (world instanceof ServerWorld) {
-					Entity entityToSpawn = new CreeperEntity(EntityType.CREEPER, (World) world);
+					Entity entityToSpawn = new SkeletonEntity(EntityType.SKELETON, (World) world);
 					entityToSpawn.setLocationAndAngles(x, y, (z + 2), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof MobEntity)
 						((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
@@ -102,7 +102,7 @@ public class SpawnerSqueletteUpdateTickProcedure extends GalariaModElements.ModE
 					&& ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) (z - 2)))).getBlock() == Blocks.AIR.getDefaultState()
 							.getBlock()))) {
 				if (world instanceof ServerWorld) {
-					Entity entityToSpawn = new CreeperEntity(EntityType.CREEPER, (World) world);
+					Entity entityToSpawn = new SkeletonEntity(EntityType.SKELETON, (World) world);
 					entityToSpawn.setLocationAndAngles(x, y, (z - 2), world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof MobEntity)
 						((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),

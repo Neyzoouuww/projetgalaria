@@ -3,18 +3,18 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hammersmelt",
+    "texture": "piochegalariasmelt",
     "customModelName": "Normal",
-    "name": "Hammer Smelt Galaria",
+    "name": "Pioche smelt en galaria",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Galaria"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 5,
-    "efficiency": 4.0,
+    "harvestLevel": 10,
+    "efficiency": 8.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
+    "enchantability": 15,
     "damageVsEntity": 4.0,
     "usageCount": 5000,
     "blocksAffected": [],
@@ -22,6 +22,9 @@
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "HammerSmeltGalariaBlockDestroyedWithTool"
+    }
   }
 }

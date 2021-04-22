@@ -19,28 +19,28 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:AmuletteSmelt"
       },
       {
-        "value": "CUSTOM:GalariaMegaCompresser"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:PiocheGalaria"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BationGalaria"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BatonDuGalarien"
+      "value": "CUSTOM:HammerSmeltGalaria"
     },
-    "name": "craft_baton_du_galarien",
+    "name": "craft_pioche_smelt",
     "namespace": "mod"
   }
 }

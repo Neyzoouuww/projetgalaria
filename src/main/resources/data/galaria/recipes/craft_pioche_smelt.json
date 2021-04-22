@@ -3,14 +3,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "galaria:galaria_mega_compresser"
+      "item": "galaria:amulette_smelt"
     },
     {
-      "item": "galaria:bation_galaria"
+      "item": "galaria:pioche_galaria"
     }
   ],
   "result": {
-    "item": "galaria:baton_du_galarien",
+    "item": "galaria:hammer_smelt_galaria",
     "count": 1
   }
 }
