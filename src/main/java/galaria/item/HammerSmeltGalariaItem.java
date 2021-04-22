@@ -36,7 +36,7 @@ public class HammerSmeltGalariaItem extends GalariaModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 5;
 			}
 
 			public int getEnchantability() {

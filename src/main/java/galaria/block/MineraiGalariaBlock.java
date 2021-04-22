@@ -108,18 +108,6 @@ public class MineraiGalariaBlock extends GalariaModElements.ModElement {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.IRON_ORE.getDefaultState().getBlock())
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.REDSTONE_ORE.getDefaultState().getBlock())
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.LAPIS_ORE.getDefaultState().getBlock())
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.GOLD_ORE.getDefaultState().getBlock())
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.COAL_ORE.getDefaultState().getBlock())
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.EMERALD_ORE.getDefaultState().getBlock())
-				blockCriteria = true;
 			return blockCriteria;
 		}
 
@@ -144,7 +132,7 @@ public class MineraiGalariaBlock extends GalariaModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(10)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(12)
 					.square().func_242731_b(2);
 			event.getRegistry().register(feature.setRegistryName("minerai_galaria"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("galaria:minerai_galaria"), configuredFeature);

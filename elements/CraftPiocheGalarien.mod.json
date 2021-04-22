@@ -10,19 +10,19 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:GalariaMegaCompresser"
       },
       {
         "value": "CUSTOM:GalariaMegaCompresser"
+      },
+      {
+        "value": "CUSTOM:GalariaMegaCompresser"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BationGalaria"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BatonDuGalarien"
+      "value": "CUSTOM:PiocheGalarien"
     },
-    "name": "craft_baton_du_galarien",
+    "name": "craft_pioche_galarien",
     "namespace": "mod"
   }
 }

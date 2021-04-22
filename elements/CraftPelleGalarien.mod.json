@@ -13,16 +13,16 @@
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:GalariaMegaCompresser"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BationGalaria"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BatonDuGalarien"
+      "value": "CUSTOM:PelleGalarien"
     },
-    "name": "craft_baton_du_galarien",
+    "name": "craft_pelle_galarien",
     "namespace": "mod"
   }
 }

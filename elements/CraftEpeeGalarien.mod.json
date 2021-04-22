@@ -13,7 +13,7 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:GalariaMegaCompresser"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BatonDuGalarien"
+      "value": "CUSTOM:EpeeGalarien"
     },
-    "name": "craft_baton_du_galarien",
+    "name": "craft_epee_galarien",
     "namespace": "mod"
   }
 }

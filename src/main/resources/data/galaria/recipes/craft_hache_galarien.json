@@ -1,0 +1,30 @@
+{
+  "group": "galaria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "galaria:galaria_mega_compresser"
+    },
+    "1": {
+      "item": "galaria:galaria_mega_compresser"
+    },
+    "2": {
+      "item": "galaria:galaria_mega_compresser"
+    },
+    "3": {
+      "item": "galaria:bation_galaria"
+    },
+    "5": {
+      "item": "galaria:bation_galaria"
+    }
+  },
+  "result": {
+    "item": "galaria:hache_galarien",
+    "count": 1
+  }
+}

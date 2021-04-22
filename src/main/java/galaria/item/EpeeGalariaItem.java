@@ -48,7 +48,7 @@ public class EpeeGalariaItem extends GalariaModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 5;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {

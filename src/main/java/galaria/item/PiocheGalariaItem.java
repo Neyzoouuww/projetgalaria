@@ -48,7 +48,7 @@ public class PiocheGalariaItem extends GalariaModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {

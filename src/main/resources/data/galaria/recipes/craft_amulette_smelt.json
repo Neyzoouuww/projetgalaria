@@ -1,0 +1,42 @@
+{
+  "group": "galaria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "galaria:lingot_galaria"
+    },
+    "1": {
+      "item": "galaria:hammer_galaria"
+    },
+    "2": {
+      "item": "galaria:lingot_galaria"
+    },
+    "3": {
+      "item": "minecraft:emerald"
+    },
+    "4": {
+      "item": "galaria:galaria_compresser"
+    },
+    "5": {
+      "item": "minecraft:emerald"
+    },
+    "6": {
+      "item": "galaria:lingot_galaria"
+    },
+    "7": {
+      "item": "galaria:pioche_galaria"
+    },
+    "8": {
+      "item": "galaria:lingot_galaria"
+    }
+  },
+  "result": {
+    "item": "galaria:amulette_smelt",
+    "count": 1
+  }
+}

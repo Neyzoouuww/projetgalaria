@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:LingotGalaria"
       },
       {
-        "value": ""
+        "value": "CUSTOM:HammerGalaria"
       },
       {
-        "value": ""
+        "value": "CUSTOM:LingotGalaria"
       },
       {
-        "value": ""
+        "value": "Items.EMERALD"
       },
       {
-        "value": "CUSTOM:GalariaMegaCompresser"
+        "value": "CUSTOM:GalariaCompresser"
       },
       {
-        "value": ""
+        "value": "Items.EMERALD"
       },
       {
-        "value": ""
+        "value": "CUSTOM:LingotGalaria"
       },
       {
-        "value": "CUSTOM:BationGalaria"
+        "value": "CUSTOM:PiocheGalaria"
       },
       {
-        "value": ""
+        "value": "CUSTOM:LingotGalaria"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BatonDuGalarien"
+      "value": "CUSTOM:AmuletteSmelt"
     },
-    "name": "craft_baton_du_galarien",
+    "name": "craft_amulette_smelt",
     "namespace": "mod"
   }
 }

@@ -603,12 +603,213 @@
           }
         ]
       }
+    },
+    {
+      "name": "CraftAmuletteSmelt",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_amulette_smelt"
+    },
+    {
+      "name": "EpeeGalarienRightClickedInAir",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epee_galarien_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EpeeGalarien",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epee_galarien"
+    },
+    {
+      "name": "PiocheGalarienBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pioche_galarien_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PiocheGalarienRightClickedInAir",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pioche_galarien_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PiocheGalarien",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pioche_galarien"
+    },
+    {
+      "name": "HacheGalarienBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hache_galarien_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HacheGalarienRightClickedInAir",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hache_galarien_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HacheGalarien",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hache_galarien"
+    },
+    {
+      "name": "PelleGalarienBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pelle_galarien_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PelleGalarienRightClickedInAir",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pelle_galarien_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PelleGalarien",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pelle_galarien"
+    },
+    {
+      "name": "CraftEpeeGalarien",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_epee_galarien"
+    },
+    {
+      "name": "CraftPelleGalarien",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_pelle_galarien"
+    },
+    {
+      "name": "CraftHacheGalarien",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_hache_galarien"
+    },
+    {
+      "name": "CraftPiocheGalarien",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_pioche_galarien"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.galaria.epee_galarien": "Épée du Galarien",
       "item.galaria.epee_galaria": "Épée en galaria",
       "block.galaria.minerai_galaria": "Minerai Galaria",
       "item.galaria.pelle_galaria": "Pelle en galaria",
@@ -619,19 +820,22 @@
       "item.galaria.tete_hammer_galaria": "Tête de hammer en galaria",
       "item.galaria.galaria_mega_compresser": "Galaria mega compresser",
       "fluid.acide": "Acide",
+      "item.galaria.pelle_galarien": "Pelle Galarien",
       "item.galaria.hache_galaria": "Hache en galaria",
       "item.galaria.armure_galaria_helmet": "Casque en galaria",
       "item.galaria.amulette_smelt": "Amulette smelt",
-      "item.galaria.baton_du_galarien": "Baton du galarien",
+      "item.galaria.baton_du_galarien": "Baton du Galarien",
       "item.galaria.bation_galaria": "Bation en galaria",
       "item.galaria.pioche_galaria": "Pioche en galaria",
       "block.galaria.block_galaria": "Block Galaria",
       "item.galaria.armure_galaria_boots": "Bottes en galaria",
+      "item.galaria.pioche_galarien": "Pioche du Galarien",
       "item.galaria.charbon_galaria": "Charbon en galaria",
       "item.galaria.acide_bucket": "Acide Bucket",
       "block.galaria.block_de_vision": "Block de vision",
       "item.galaria.armure_galaria_chestplate": "Plastron en galaria",
       "item.galaria.armure_galaria_leggings": "Jambière en galaria",
+      "item.galaria.hache_galarien": "Hache du Galarien",
       "block.galaria.spawner_squelette": "Spawner  à squelette Niveau 2",
       "item.galaria.galaria_compresser": "Galaria compresser"
     }

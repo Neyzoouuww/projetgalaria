@@ -107,30 +107,12 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.IRON_ORE"
-      },
-      {
-        "value": "Blocks.REDSTONE_ORE"
-      },
-      {
-        "value": "Blocks.LAPIS_ORE"
-      },
-      {
-        "value": "Blocks.GOLD_ORE"
-      },
-      {
-        "value": "Blocks.COAL_ORE"
-      },
-      {
-        "value": "Blocks.EMERALD_ORE"
+        "value": "Blocks.STONE#0"
       }
     ],
     "frequencyPerChunks": 2,
-    "frequencyOnChunk": 4,
+    "frequencyOnChunk": 5,
     "minGenerateHeight": 4,
-    "maxGenerateHeight": 10
+    "maxGenerateHeight": 12
   }
 }

@@ -3,28 +3,31 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "batondugalarien",
+    "texture": "hachedugalaria",
     "customModelName": "Normal",
-    "name": "Baton du Galarien",
+    "name": "Hache du Galarien",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Galaria"
     },
-    "toolType": "Special",
+    "toolType": "Axe",
     "harvestLevel": 1,
-    "efficiency": 4.0,
+    "efficiency": 22.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 1.0,
-    "usageCount": 500,
+    "enchantability": 15,
+    "damageVsEntity": 10.0,
+    "usageCount": 4500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onRightClickedInAir": {
-      "name": "BatonDuGalarienRightClickedInAir"
+      "name": "HacheGalarienRightClickedInAir"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "HacheGalarienBlockDestroyedWithTool"
     }
   }
 }

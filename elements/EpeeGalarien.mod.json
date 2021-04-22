@@ -3,28 +3,28 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "batondugalarien",
+    "texture": "epeedugalarien",
     "customModelName": "Normal",
-    "name": "Baton du Galarien",
+    "name": "Épée du Galarien",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Galaria"
     },
-    "toolType": "Special",
+    "toolType": "Sword",
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 1.0,
-    "usageCount": 500,
+    "attackSpeed": 5.0,
+    "enchantability": 15,
+    "damageVsEntity": 16.0,
+    "usageCount": 4500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onRightClickedInAir": {
-      "name": "BatonDuGalarienRightClickedInAir"
+      "name": "EpeeGalarienRightClickedInAir"
     }
   }
 }
