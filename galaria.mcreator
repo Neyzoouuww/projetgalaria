@@ -552,6 +552,57 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "craft_galaria_mega_compresser"
+    },
+    {
+      "name": "AmuletteSmelt",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amulette_smelt"
+    },
+    {
+      "name": "HammerSmeltGalaria",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_smelt_galaria"
+    },
+    {
+      "name": "HammerSmeltGalariaBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_smelt_galaria_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -559,26 +610,28 @@
   "language_map": {
     "en_us": {
       "item.galaria.epee_galaria": "Épée en galaria",
-      "item.galaria.baton_du_galarien": "Baton du galarien",
       "block.galaria.minerai_galaria": "Minerai Galaria",
-      "itemGroup.tabgalaria": "Galaria",
       "item.galaria.pelle_galaria": "Pelle en galaria",
-      "item.galaria.bation_galaria": "Bation en galaria",
+      "itemGroup.tabgalaria": "Galaria",
       "item.galaria.hammer_galaria": "Hammer en galaria",
       "item.galaria.lingot_galaria": "Lingot de galaria",
+      "item.galaria.hammer_smelt_galaria": "Hammer Smelt Galaria",
+      "item.galaria.tete_hammer_galaria": "Tête de hammer en galaria",
+      "item.galaria.galaria_mega_compresser": "Galaria mega compresser",
+      "fluid.acide": "Acide",
+      "item.galaria.hache_galaria": "Hache en galaria",
+      "item.galaria.armure_galaria_helmet": "Casque en galaria",
+      "item.galaria.amulette_smelt": "Amulette smelt",
+      "item.galaria.baton_du_galarien": "Baton du galarien",
+      "item.galaria.bation_galaria": "Bation en galaria",
       "item.galaria.pioche_galaria": "Pioche en galaria",
       "block.galaria.block_galaria": "Block Galaria",
       "item.galaria.armure_galaria_boots": "Bottes en galaria",
-      "item.galaria.tete_hammer_galaria": "Tête de hammer en galaria",
       "item.galaria.charbon_galaria": "Charbon en galaria",
-      "fluid.acide": "Acide",
-      "item.galaria.galaria_mega_compresser": "Galaria mega compresser",
       "item.galaria.acide_bucket": "Acide Bucket",
       "block.galaria.block_de_vision": "Block de vision",
       "item.galaria.armure_galaria_chestplate": "Plastron en galaria",
-      "item.galaria.hache_galaria": "Hache en galaria",
       "item.galaria.armure_galaria_leggings": "Jambière en galaria",
-      "item.galaria.armure_galaria_helmet": "Casque en galaria",
       "block.galaria.spawner_squelette": "Spawner  à squelette Niveau 2",
       "item.galaria.galaria_compresser": "Galaria compresser"
     }
