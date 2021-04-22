@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "tetehammer",
     "customModelName": "Normal",
-    "name": "Tete Hammer Galaria",
+    "name": "Tête de hammer en galaria",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Galaria"
     },
     "stackSize": 64,
     "enchantability": 0,

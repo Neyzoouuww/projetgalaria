@@ -8,7 +8,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
@@ -18,6 +17,8 @@ import java.util.Map;
 import java.util.HashMap;
 
 import galaria.procedures.HammerGalariaBlockDestroyedWithToolProcedure;
+
+import galaria.itemgroup.GalariaItemGroup;
 
 import galaria.GalariaModElements;
 
@@ -55,7 +56,7 @@ public class HammerGalariaItem extends GalariaModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(GalariaItemGroup.tab)) {
 			@Override
 			public boolean onBlockDestroyed(ItemStack itemstack, World world, BlockState bl, BlockPos pos, LivingEntity entity) {
 				boolean retval = super.onBlockDestroyed(itemstack, world, bl, pos, entity);

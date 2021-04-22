@@ -8,7 +8,7 @@
     "name": "Hammer en galaria",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Galaria"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 1,

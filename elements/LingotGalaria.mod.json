@@ -8,7 +8,7 @@
     "name": "Lingot de galaria",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:Galaria"
     },
     "stackSize": 64,
     "enchantability": 0,

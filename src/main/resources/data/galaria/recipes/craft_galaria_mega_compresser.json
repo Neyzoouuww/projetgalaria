@@ -1,0 +1,22 @@
+{
+  "group": "galaria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "galaria:galaria_compresser"
+    },
+    {
+      "item": "galaria:galaria_compresser"
+    },
+    {
+      "item": "galaria:galaria_compresser"
+    },
+    {
+      "item": "galaria:galaria_compresser"
+    }
+  ],
+  "result": {
+    "item": "galaria:galaria_mega_compresser",
+    "count": 1
+  }
+}

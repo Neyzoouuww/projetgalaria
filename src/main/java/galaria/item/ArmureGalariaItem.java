@@ -10,7 +10,6 @@ import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
@@ -29,6 +28,8 @@ import galaria.procedures.ArmureGalariaLeggingsTickEventProcedure;
 import galaria.procedures.ArmureGalariaHelmetTickEventProcedure;
 import galaria.procedures.ArmureGalariaBootsTickEventProcedure;
 import galaria.procedures.ArmureGalariaBodyTickEventProcedure;
+
+import galaria.itemgroup.GalariaItemGroup;
 
 import galaria.GalariaModElements;
 
@@ -93,7 +94,7 @@ public class ArmureGalariaItem extends GalariaModElements.ModElement {
 				return 0.2f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(GalariaItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
@@ -123,7 +124,7 @@ public class ArmureGalariaItem extends GalariaModElements.ModElement {
 				}
 			}
 		}.setRegistryName("armure_galaria_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(GalariaItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
@@ -154,7 +155,7 @@ public class ArmureGalariaItem extends GalariaModElements.ModElement {
 				}
 			}
 		}.setRegistryName("armure_galaria_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(GalariaItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public BipedModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlotType slot, BipedModel defaultModel) {
@@ -184,7 +185,7 @@ public class ArmureGalariaItem extends GalariaModElements.ModElement {
 				}
 			}
 		}.setRegistryName("armure_galaria_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(GalariaItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "galaria:textures/armuregalaria.png";

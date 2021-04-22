@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:LingotGalaria"
+        "value": ""
       },
       {
-        "value": "CUSTOM:LingotGalaria"
+        "value": ""
       },
       {
-        "value": "CUSTOM:LingotGalaria"
+        "value": ""
       },
       {
-        "value": "CUSTOM:LingotGalaria"
+        "value": ""
       },
       {
         "value": "CUSTOM:GalariaCompresser"
       },
       {
-        "value": "CUSTOM:LingotGalaria"
+        "value": "CUSTOM:GalariaCompresser"
       },
       {
-        "value": "CUSTOM:LingotGalaria"
+        "value": ""
       },
       {
-        "value": "CUSTOM:LingotGalaria"
+        "value": "CUSTOM:GalariaCompresser"
       },
       {
-        "value": "CUSTOM:LingotGalaria"
+        "value": "CUSTOM:GalariaCompresser"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TableCraftGalaria"
+      "value": "CUSTOM:GalariaMegaCompresser"
     },
-    "name": "craft_table_craft_galaria",
+    "name": "craft_galaria_mega_compresser",
     "namespace": "mod"
   }
 }

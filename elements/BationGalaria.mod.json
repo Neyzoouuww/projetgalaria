@@ -6,9 +6,9 @@
     "texture": "batongalaria",
     "customModelName": "Normal",
     "name": "Bation en galaria",
-    "rarity": "RARE",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:Galaria"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -34,12 +34,12 @@
     ],
     "name": "Minerai Galaria",
     "specialInfo": [],
-    "hardness": 5.0,
+    "hardness": 4.5,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:Galaria"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -77,13 +77,13 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 3,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "HEART"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleAmount": 5,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -128,8 +128,8 @@
         "value": "Blocks.EMERALD_ORE"
       }
     ],
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 3,
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 4,
     "minGenerateHeight": 4,
     "maxGenerateHeight": 10
   }

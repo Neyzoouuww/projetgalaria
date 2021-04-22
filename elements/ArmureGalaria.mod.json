@@ -23,7 +23,7 @@
       "name": "ArmureGalariaBootsTickEvent"
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Galaria"
     },
     "armorTextureFile": "galariaarmure",
     "helmetName": "Casque en galaria",

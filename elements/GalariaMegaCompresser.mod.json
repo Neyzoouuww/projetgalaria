@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "galariamegacompresser",
     "customModelName": "Normal",
-    "name": "Galaria Mega Compresser",
+    "name": "Galaria mega compresser",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:Galaria"
     },
     "stackSize": 64,
     "enchantability": 0,

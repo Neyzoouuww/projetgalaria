@@ -2,19 +2,20 @@
 package galaria.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.common.ToolType;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
-import net.minecraft.world.Explosion;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.fluid.FluidState;
-import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
@@ -28,8 +29,8 @@ import java.util.HashMap;
 import java.util.Collections;
 
 import galaria.procedures.SpawnerSqueletteUpdateTickProcedure;
-import galaria.procedures.SpawnerSqueletteBlockDestroyedByPlayerProcedure;
-import galaria.procedures.SpawnerSqueletteBlockDestroyedByExplosionProcedure;
+
+import galaria.itemgroup.GalariaItemGroup;
 
 import galaria.GalariaModElements;
 
@@ -44,12 +45,18 @@ public class SpawnerSqueletteBlock extends GalariaModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.MISC)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(GalariaItemGroup.tab)).setRegistryName(block.getRegistryName()));
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public void clientLoad(FMLClientSetupEvent event) {
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(5f, 25f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.GLASS).sound(SoundType.METAL).hardnessAndResistance(5f, 25f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("spawner_squelette");
 		}
 
@@ -63,7 +70,7 @@ public class SpawnerSqueletteBlock extends GalariaModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 0));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 
 		@Override
@@ -90,39 +97,6 @@ public class SpawnerSqueletteBlock extends GalariaModElements.ModElement {
 				SpawnerSqueletteUpdateTickProcedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 500);
-		}
-
-		@Override
-		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, FluidState fluid) {
-			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				SpawnerSqueletteBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
-			}
-			return retval;
-		}
-
-		@Override
-		public void onExplosionDestroy(World world, BlockPos pos, Explosion e) {
-			super.onExplosionDestroy(world, pos, e);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				SpawnerSqueletteBlockDestroyedByExplosionProcedure.executeProcedure($_dependencies);
-			}
 		}
 	}
 }

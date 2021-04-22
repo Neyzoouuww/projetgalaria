@@ -8,7 +8,7 @@
     "name": "Pioche en galaria",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Galaria"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 6,

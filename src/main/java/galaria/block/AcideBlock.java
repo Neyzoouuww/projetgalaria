@@ -29,7 +29,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.item.Items;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BucketItem;
 import net.minecraft.fluid.Fluid;
@@ -47,6 +46,8 @@ import java.util.Map;
 import java.util.HashMap;
 
 import galaria.procedures.AcideMobplayerCollidesBlock2Procedure;
+
+import galaria.itemgroup.GalariaItemGroup;
 
 import galaria.GalariaModElements;
 
@@ -101,7 +102,7 @@ public class AcideBlock extends GalariaModElements.ModElement {
 				}
 			}
 		}.setRegistryName("acide"));
-		elements.items.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ItemGroup.MISC))
+		elements.items.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(GalariaItemGroup.tab))
 				.setRegistryName("acide_bucket"));
 	}
 	private static Feature<BlockStateFeatureConfig> feature = null;

@@ -5,9 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
+
+import galaria.itemgroup.GalariaItemGroup;
 
 import galaria.GalariaModElements;
 
@@ -25,7 +26,7 @@ public class LingotGalariaItem extends GalariaModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(GalariaItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("lingot_galaria");
 		}
 

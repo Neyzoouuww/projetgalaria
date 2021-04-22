@@ -7,7 +7,6 @@ import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.Entity;
@@ -16,6 +15,8 @@ import java.util.Map;
 import java.util.HashMap;
 
 import galaria.procedures.PiocheGalariaToolInHandTickProcedure;
+
+import galaria.itemgroup.GalariaItemGroup;
 
 import galaria.GalariaModElements;
 
@@ -53,7 +54,7 @@ public class PiocheGalariaItem extends GalariaModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(GalariaItemGroup.tab)) {
 			@Override
 			public boolean hasContainerItem() {
 				return true;

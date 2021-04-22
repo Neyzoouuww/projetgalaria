@@ -8,7 +8,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
@@ -22,6 +21,8 @@ import java.util.Map;
 import java.util.HashMap;
 
 import galaria.procedures.BatonDuGalarienRightClickedInAirProcedure;
+
+import galaria.itemgroup.GalariaItemGroup;
 
 import galaria.GalariaModElements;
 
@@ -58,7 +59,7 @@ public class BatonDuGalarienItem extends GalariaModElements.ModElement {
 	}
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(500).isImmuneToFire());
+			super(new Item.Properties().group(GalariaItemGroup.tab).maxDamage(500).isImmuneToFire());
 		}
 
 		@Override
