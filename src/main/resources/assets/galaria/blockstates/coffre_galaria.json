@@ -1,7 +1,27 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "galaria:block/coffre_galaria"
+    },
+    "facing=east": {
+      "model": "galaria:block/coffre_galaria",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "galaria:block/coffre_galaria",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "galaria:block/coffre_galaria",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "galaria:block/coffre_galaria",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "galaria:block/coffre_galaria",
+      "x": 90
     }
   }
 }
