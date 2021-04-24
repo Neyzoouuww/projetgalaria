@@ -1,0 +1,46 @@
+{
+  "_fv": 17,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LingotGalaria"
+      },
+      {
+        "value": "CUSTOM:BlockGalaria"
+      },
+      {
+        "value": "CUSTOM:LingotGalaria"
+      },
+      {
+        "value": "CUSTOM:BationGalaria"
+      },
+      {
+        "value": "CUSTOM:GalariaCompresser"
+      },
+      {
+        "value": "CUSTOM:BationGalaria"
+      },
+      {
+        "value": "CUSTOM:LingotGalaria"
+      },
+      {
+        "value": "CUSTOM:BlockGalaria"
+      },
+      {
+        "value": "CUSTOM:LingotGalaria"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TableDeCraftGalaria"
+    },
+    "name": "craft_table_de_craft_galaria",
+    "namespace": "mod"
+  }
+}

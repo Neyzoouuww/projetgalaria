@@ -42,7 +42,7 @@ public class HammerGalariaItem extends GalariaModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {

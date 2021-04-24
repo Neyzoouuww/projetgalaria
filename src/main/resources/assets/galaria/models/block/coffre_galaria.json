@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "galaria:blocks/coffregalariahautbas",
+    "up": "galaria:blocks/coffregalariahautbas",
+    "north": "galaria:blocks/coffregalariaface",
+    "east": "galaria:blocks/coffregalariacote",
+    "south": "galaria:blocks/coffregalariacote",
+    "west": "galaria:blocks/coffregalariacote",
+    "particle": "galaria:blocks/coffregalariahautbas"
+  }
+}

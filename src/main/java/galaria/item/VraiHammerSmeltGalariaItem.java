@@ -16,41 +16,41 @@ import net.minecraft.block.BlockState;
 import java.util.Map;
 import java.util.HashMap;
 
-import galaria.procedures.PiocheGalarienBlockDestroyedWithToolProcedure;
+import galaria.procedures.VraiHammerSmeltGalariaBlockDestroyedWithToolProcedure;
 
 import galaria.itemgroup.GalariaItemGroup;
 
 import galaria.GalariaModElements;
 
 @GalariaModElements.ModElement.Tag
-public class PiocheGalarienItem extends GalariaModElements.ModElement {
-	@ObjectHolder("galaria:pioche_galarien")
+public class VraiHammerSmeltGalariaItem extends GalariaModElements.ModElement {
+	@ObjectHolder("galaria:vrai_hammer_smelt_galaria")
 	public static final Item block = null;
-	public PiocheGalarienItem(GalariaModElements instance) {
-		super(instance, 60);
+	public VraiHammerSmeltGalariaItem(GalariaModElements instance) {
+		super(instance, 79);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 4500;
+				return 5000;
 			}
 
 			public float getEfficiency() {
-				return 28f;
+				return 4f;
 			}
 
 			public float getAttackDamage() {
-				return 6f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
-				return 6;
+				return 5;
 			}
 
 			public int getEnchantability() {
-				return 15;
+				return 2;
 			}
 
 			public Ingredient getRepairMaterial() {
@@ -66,10 +66,14 @@ public class PiocheGalarienItem extends GalariaModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					PiocheGalarienBlockDestroyedWithToolProcedure.executeProcedure($_dependencies);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					VraiHammerSmeltGalariaBlockDestroyedWithToolProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}
-		}.setRegistryName("pioche_galarien"));
+		}.setRegistryName("vrai_hammer_smelt_galaria"));
 	}
 }

@@ -3,20 +3,20 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "piochedugalarien",
+    "texture": "hammersmelt",
     "customModelName": "Normal",
-    "name": "Pioche du Galarien",
+    "name": "Vrai Hammer Smelt Galaria",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Galaria"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 6,
-    "efficiency": 28.0,
+    "harvestLevel": 5,
+    "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 15,
-    "damageVsEntity": 8.0,
-    "usageCount": 4500,
+    "enchantability": 2,
+    "damageVsEntity": 6.0,
+    "usageCount": 5000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
@@ -24,7 +24,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onBlockDestroyedWithTool": {
-      "name": "PiocheGalarienBlockDestroyedWithTool"
+      "name": "VraiHammerSmeltGalariaBlockDestroyedWithTool"
     }
   }
 }

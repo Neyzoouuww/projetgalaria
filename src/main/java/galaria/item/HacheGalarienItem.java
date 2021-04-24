@@ -38,7 +38,7 @@ public class HacheGalarienItem extends GalariaModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 22f;
+				return 26f;
 			}
 
 			public float getAttackDamage() {

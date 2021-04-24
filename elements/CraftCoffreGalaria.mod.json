@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:LingotGalaria"
       },
       {
-        "value": "CUSTOM:TeteHammerGalaria"
+        "value": "CUSTOM:LingotGalaria"
       },
       {
-        "value": ""
+        "value": "CUSTOM:LingotGalaria"
       },
       {
-        "value": ""
+        "value": "CUSTOM:LingotGalaria"
       },
       {
-        "value": "CUSTOM:BationGalaria"
+        "value": "Blocks.CHEST"
       },
       {
-        "value": ""
+        "value": "CUSTOM:LingotGalaria"
       },
       {
-        "value": ""
+        "value": "CUSTOM:LingotGalaria"
       },
       {
-        "value": "CUSTOM:BationGalaria"
+        "value": "CUSTOM:LingotGalaria"
       },
       {
-        "value": ""
+        "value": "CUSTOM:LingotGalaria"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:HammerGalaria"
+      "value": "CUSTOM:CoffreGalaria"
     },
-    "name": "craft_hammer",
+    "name": "craft_coffre_galaria",
     "namespace": "mod"
   }
 }
